@@ -92,3 +92,19 @@ Results can be exported to a CSV file and optionally returned to the console.
 ## 📄 License
 
 MIT License – see [LICENSE](LICENSE) file for details.
+
+## 📊 Sample Output
+
+If the user is found in any distribution groups, the output CSV (and optional console output) will resemble:
+
+```CSV
+"DistributionGroupName","DistributionGroupEmail","IsMember"
+"Marketing Team","marketing@example.com","True"
+"All Staff","allstaff@example.com","True"
+```
+
+If the user is not a member of any of the queried distribution groups, the following message will be shown:
+
+```PlainText
+No distribution group membership found for user user@example.com.
+```
