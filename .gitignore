@@ -1,0 +1,15 @@
+*test*
+*demo*
+*dummy*
+*pass*
+*.csv
+*.json
+*.xml
+*.pfx
+*.cer
+*.txt
+*.log
+*example*
+/ignore/
+/report/
+/output/
